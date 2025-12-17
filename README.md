@@ -41,7 +41,15 @@ Borrow out = A'Bin + A'B + BBin
 **Procedure**
 
 Write the detailed procedure here
+Open Quartus, create new project "AdderSub", add full_adder.v and full_subtractor.v files.
 
+Write full adder module code in full_adder.v with inputs A, B, Cin and outputs Sum, Cout.
+
+Write full subtractor module code in full_subtractor.v with inputs A, B, Bin and outputs Diff, Bout.
+
+Run Processing > Start Compilation, then check Tools > Netlist Viewers > RTL Viewer.
+
+Create tb.v testbench file with all 8 input combinations, run Processing > Start Simulation to verify truth tables.
 **Program:**
 
 /* Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming. Developed by:S Tozer Theophilus RegisterNumber:25016814
